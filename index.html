@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahal Constraction Company</title>
+  <meta 
+  name="Description"
+  content="Sahal Construction Company provides professional construction and building services."
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+
+    <div class="header-top">
+
+    <h1>Sahal Construction Company</h1>
+
+    <button
+      class="menu-button"
+      aria-label="open navigation menu"
+      type="button"
+    >
+      ☰
+    </button>
+
+    </div>
+
+    <nav class="navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About us</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <img src="imges/constraction.jpg" alt="Construction workers building a modern project">
+
+      <h2>Building Stronger Future</h2>
+
+      <p>
+        We provide professional construction and building services for residential and commercial projects.
+      </p>
+
+      <a href="#contact">Contact us</a>
+    <a href="#projects">View our Projects</a>
+    </section>
+
+    
+    <section id="about">
+      <h2>About Us</h2>
+
+      <p>
+        Sahal Constraction Company is a professional constraction company focused on quality, safety, and reliable building solutions.
+      </p>
+
+      <p>
+        We work with clients to deliver residential and commercial projects that meet high standards.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+
+      <p>We provide reliable constraction services for residential and commercial projects.</p>
+
+      <div class="service-grid">
+
+      <article>
+        <h3>Residential Constraction</h3>
+
+        <p>
+          We build modern and durable homes according to our client's need.
+        </p>
+
+        <a href="#contact">Learn more</a>
+      </article>
+
+      <article>
+        <h3>Commercial Constraction</h3>
+
+        <p>
+          We provide professional constraction solutions for office, shops, and commercial buildings.
+        </p>
+
+        <a href="#contact">Learn more</a>
+      </article>
+      
+      <article>
+        <h3>Renovation Services</h3>
+
+        <p>
+          We renovate and improve existing buildings to meet modern standards.
+        </p>
+
+        <a href="#contact">Learn more</a>
+      </article>
+
+      </div>
+    </section>
+
+    <section id="why-us">
+
+      <h2>Why Choose Us?</h2>
+
+      <ul>
+        <li>High Quality Work</li>
+        <li>Experienced Team</li>
+        <li>Reliable Service</li>
+        <li>On-Time project Delivery</li>
+        <li>Customer Satisfaction</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+
+      <h2>Our Projects</h2>
+
+      <div class="projects-grid">
+
+      <article onclick="window.location.href='projects.html'">
+        <img src="imges/modern.webp" alt="Modern residential building completed by Sahal Construction Company">
+
+        <div class="project-content">
+        <h3>Modern Family House</h3>
+
+        <p>
+          A modern residential constraction project completed with quality materials and professional workmanship.
+        </p>
+        </div>
+      </article>
+
+      <article onclick="window.location.href='projects.html'">
+        <img src="imges/commercial.jpg" alt="Modern commercial building constructed by Sahal Construction Company">
+
+        <div class="project-content">
+        <h3>Commercial Building</h3>
+
+        <p>
+          A commercial constraction project designed for business and office use.
+        </p>
+        </div>
+      </article>
+
+      <article onclick="window.location.href='projects.html'">
+        <img src="imges/renovate.jpeg" alt="Renovated building completed by Sahal Construction Company">
+
+        <div class="project-content">
+        <h3>Building Renovation</h3>
+
+        <p>
+          A complete renovation project that improved the building's appearance and functionality.
+        </p>
+        </div>
+      </article>
+
+      </div>
+
+      <a href="#contact">Learn more</a>
+
+    </section>
+
+    <section id="contact">
+
+      <h2>Contact Us</h2>
+
+      <p>Have project in mind? Contact us today.</p>
+
+      <form novalidate>
+
+        <div>
+          <label for="name">Full name</label>
+          <input 
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your full name"
+          >
+        </div>
+
+        <div>
+          <label for="email">Email Address</label>
+          <input 
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          >
+        </div>
+
+        <div>
+          <label for="message">Message</label>
+          <textarea 
+          name="message" 
+          id="message" 
+          rows="6"
+          placeholder="Tell us about your project..."
+          ></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+        <p class="form-message" aria-live="polite"></p>
+
+      </form>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Sahal Constraction Company. All rights reserved.
+
+    </p>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
