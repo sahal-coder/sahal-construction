@@ -6,6 +6,8 @@ const messageInput = document.querySelector('#message');
 
 const formMessage = document.querySelector('.form-message');
 
+lucide.createIcons();
+
 
 menuBtn.addEventListener('click', function() {
   navigation.classList.toggle('active')
@@ -49,4 +51,7 @@ contactForm.addEventListener('submit', function(event) {
 
   contactForm.reset();
 });
+
+
+
 

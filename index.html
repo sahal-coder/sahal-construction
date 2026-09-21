@@ -3,20 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sahal Constraction Company</title>
+  <title>Sahal Construction Company</title>
   <meta 
   name="Description"
   content="Sahal Construction Company provides professional construction and building services."
   >
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="imgage/png" href="/sahal-constraction/imges/company-logo.png">
 </head>
 <body>
 
-  <header>
+  <header class="site-header">
 
-    <div class="header-top">
 
-    <h1>Sahal Construction Company</h1>
+    <div class="container header-container">
+
+
+    <a href="#home" class="logo">
+      <img src="imges/company-logo.png" alt=""> Sahal Construction
+    </a>
 
     <button
       class="menu-button"
@@ -26,7 +33,7 @@
       ☰
     </button>
 
-    </div>
+    
 
     <nav class="navigation">
       <a href="#home">Home</a>
@@ -35,194 +42,565 @@
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
+
+    </div>
+
   </header>
 
   <main>
-    <section id="home">
-      <img src="imges/constraction.jpg" alt="Construction workers building a modern project">
+    <section id="home" class="hero">
 
-      <h2>Building Stronger Future</h2>
+      <div class="container hero-container">
 
-      <p>
-        We provide professional construction and building services for residential and commercial projects.
-      </p>
+        <div class="hero-content">
 
-      <a href="#contact">Contact us</a>
-    <a href="#projects">View our Projects</a>
+          <span class="hero-label">Professional Construction Company</span>
+
+          <h1>Building Stronger Future</h1>
+
+          <p>
+            We provide professional construction and building
+            solutions for residential and commercial projects.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Get a Quote</a>
+            <a href="#projects" class="btn btn-secondary">View Projects</a>
+          </div>
+
+        </div>
+
+        <div class="hero-image">
+          <img 
+          src="imges/constraction.jpg" 
+          alt="Modern construction project by Sahal Construction Company"
+          >
+        </div>
+
+      </div>
+
     </section>
 
     
-    <section id="about">
-      <h2>About Us</h2>
-
-      <p>
-        Sahal Constraction Company is a professional constraction company focused on quality, safety, and reliable building solutions.
-      </p>
-
-      <p>
-        We work with clients to deliver residential and commercial projects that meet high standards.
-      </p>
-    </section>
-
-    <section id="services">
-      <h2>Our Services</h2>
-
-      <p>We provide reliable constraction services for residential and commercial projects.</p>
-
-      <div class="service-grid">
-
-      <article>
-        <h3>Residential Constraction</h3>
-
-        <p>
-          We build modern and durable homes according to our client's need.
-        </p>
-
-        <a href="#contact">Learn more</a>
-      </article>
-
-      <article>
-        <h3>Commercial Constraction</h3>
-
-        <p>
-          We provide professional constraction solutions for office, shops, and commercial buildings.
-        </p>
-
-        <a href="#contact">Learn more</a>
-      </article>
+    <section id="about" class="about">
       
-      <article>
-        <h3>Renovation Services</h3>
+      <div class="container about-container">
 
-        <p>
-          We renovate and improve existing buildings to meet modern standards.
-        </p>
+        <div class="about-image">
+          <img 
+          src="imges/team-work.jpeg" 
+          alt="Sahal Construction Company team working on a construction project"
+          >
+        </div>
 
-        <a href="#contact">Learn more</a>
-      </article>
+        <div class="about-content">
+
+          <span class="section-label">About Our Company</span>
+
+          <h2>We Build With Quality, Trust, and Experience</h2>
+
+          <p>
+            Sahal Construction Company provides professional construction solutions for residential and commercial projects.
+          </p>
+
+          <p>
+            Our goal is to deliver high-quality work, reliable service, and projects that our clients can be proud of.
+          </p>
+
+          <a href="#contact" class="btn btn-primary">Work With US</a>
+
+          <div class="about-stats">
+
+            <div class="stat">
+              <strong>10+</strong>
+              <span>Years Experience</span>
+            </div>
+
+            <div class="stat">
+              <strong>100+</strong>
+              <span>Projects Completed</span>
+            </div>
+
+            <div class="stat">
+              <strong>95+</strong>
+              <span>Happy Clients</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="services" class="services">
+      
+      <div class="container">
+        
+        <div class="section-heading">
+          <span class="section-label">What We Do</span>
+
+          <h2>Our Professional Services</h2>
+
+          <p>
+            From planning to complete, we provide reliable construction solutions designed around our clients' needs.
+          </p>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-card">
+
+            <div class="service-icon" aria-hidden="true">
+              <i data-lucide="house"></i>
+            </div>
+
+            <h3>Residential Construction</h3>
+
+            <p>
+              We build comfortable, modern, and durable homes
+              tailored to each client's requirements.
+            </p>
+
+            <a href="#conatct" class="service-link">
+              Learn more
+            </a>
+          </article>
+
+          <article class="service-card">
+
+            <div class="service-icon" aria-hidden="true">
+              <i data-lucide="building"></i>
+            </div>
+
+            <h3>Commercial Construction</h3>
+
+            <p>
+              We deliver professional construction solutions
+              for offices, shops, and commercial buildings.
+            </p>
+
+            <a href="#contact" class="service-link">
+              Learn more
+            </a>
+          </article>
+
+          <article class="service-card">
+
+            <div class="service-icon" aria-hidden="true">
+              <i data-lucide="hammer"></i>
+            </div>
+
+            <h3>Renovation & Remodeling</h3>
+
+            <p>
+              We transform existing spaces with modern designs,
+              quality materials, and professional workmanship.
+            </p>
+
+             <a href="#contact" class="service-link">
+              Learn more
+            </a>
+          </article>
+
+          <article class="service-card">
+
+            <div class="service-icon" aria-hidden="true">
+              <i data-lucide="pencil-ruler"></i>
+            </div>
+
+            <h3>Project Planning</h3>
+
+            <p>
+              We help clients plan their projects carefully,
+              from initial ideas to successful completion.
+            </p>
+
+            <a href="#contact" class="service-link">
+              Learn more
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">Why Choose us</span>
+
+          <h2>Why Clients Choose Sahal Construction</h2>
+
+          <p>
+            We combine quality, experience, reliability, and customer-focused service
+            to deliver construction projects our clients can trust.
+          </p>
+
+          </div>
+
+          <div class="why-us-grid">
+
+          <article class="why-us-card">
+
+            <div class="why-us-icon">
+              <i data-lucide="award"></i>
+            </div>
+
+            <h3>Quality Materials</h3>
+
+            <p>
+              We use high-quality materials to build strong, durable, and reliable projects that last for years.
+            </p>
+          </article>
+
+          <article class="why-us-card">
+
+            <div class="why-us-icon">
+              <i data-lucide="user-group"></i>
+            </div>
+
+            <h3>Experienced Team</h3>
+
+            <p>
+              Our experienced team brings professional skills, careful planning, and attention to detail to every project.
+            </p>
+          </article>
+
+          <article class="why-us-card">
+
+            <div class="why-us-icon">
+              <i data-lucide="clock"></i>
+            </div>
+
+            <h3>On-Time Delivery</h3>
+
+            <p>
+              We manage every project carefully to complete the work on schedule and meet our clients’ expectations.
+            </p>
+          </article>
+
+          <article class="why-us-card">
+
+            <div class="why-us-icon">
+              <i data-lucide="heart"></i>
+            </div>
+
+            <h3>Customer Satisfaction</h3>
+
+            <p>
+              We focus on our clients’ needs and work hard to provide reliable service and results they can be proud of.
+            </p>
+          </article>
+
+          </div>
+        
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">Our Projects</span>
+
+          <h2>Our Recent Work</h2>
+
+          <p>
+            Take a look at some of the projects we have completed with quality, precision, and professional workmanship. From residential homes to commercial buildings, we are committed to delivering reliable construction solutions that meet our clients’ needs.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <article class="project-card">
+
+            <div class="project-image">
+              <img 
+              src="imges/residential-construction.jpg" 
+              alt="Modern family Home"
+              >
+            </div>
+
+            <div class="project-content">
+              <span class="project-category">Residential Construction</span>
+
+              <h3>Modern Family Home</h3>
+
+              <p>
+                 A modern family home built with quality materials, practical design, and professional workmanship.
+              </p>
+
+              <a href="#contact" class="project-link">
+                View Project
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+
+            <div class="project-image">
+              <img 
+              src="imges/commercial-office-building.jpg" 
+              alt="Commercial Office Building"
+              >
+            </div>
+
+            <div class="project-content">
+              <span>Commercial Construction</span>
+
+              <h3>Commercial Office Building</h3>
+
+              <p>
+                A professional office building designed for a modern and productive working environment.
+              </p>
+
+              <a href="#contact" class="project-link">
+                View Project
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+
+            <div class="project-image">
+              <img 
+              src="imges/residential-renovation.jpg" 
+              alt="Residential Renovation"
+              >
+            </div>
+
+            <div class="project-content">
+              <span class="project-category">Renovation & Remodeling</span>
+
+              <h3>Residential Renovation</h3>
+
+              <p>
+                A complete renovation project that transformed an existing space into a modern and comfortable home.
+              </p>
+
+              <a href="#contact" class="project-link">
+                View Project
+              </a>
+            </div>
+            
+          </article>
+
+        </div>
 
       </div>
     </section>
 
-    <section id="why-us">
+    <section id="contact" class="contact">
 
-      <h2>Why Choose Us?</h2>
+      <div class="container">
 
-      <ul>
-        <li>High Quality Work</li>
-        <li>Experienced Team</li>
-        <li>Reliable Service</li>
-        <li>On-Time project Delivery</li>
-        <li>Customer Satisfaction</li>
-      </ul>
-    </section>
+        <div class="contact-container">
 
-    <section id="projects">
+          <div class="contact-left">
 
-      <h2>Our Projects</h2>
+            <div class="contact-content">
 
-      <div class="projects-grid">
+            <span class="section-label">Get In Touch</span>
 
-      <article onclick="window.location.href='projects.html'">
-        <img src="imges/modern.webp" alt="Modern residential building completed by Sahal Construction Company">
+            <h2>Let's Build Something Great Together</h2>
 
-        <div class="project-content">
-        <h3>Modern Family House</h3>
+            <p>
+              Have a construction project in mind? Contact us today and let's discuss how we can help bring your vision to life.
+            </p>
+          </div>
 
-        <p>
-          A modern residential constraction project completed with quality materials and professional workmanship.
-        </p>
+          <div class="contact-info">
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="the-icon" data-lucide="phone"></i>
+              </div>
+
+              <div class="contact-details">
+                <h3>Phone</h3>
+                <p>+252 61 0000000</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <p><i class="the-icon" data-lucide="mail"></i></p>
+              </div>
+
+              <div class="contact-details">
+                <h3>Email</h3>
+                <p>Sahalconstruction.co@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <p><i class="the-icon" data-lucide="map-pin"></i></p>
+              </div>
+
+              <div class="contact-details">
+                <h3>Location</h3>
+                <p>Somalia, Mogadishu</p>
+              </div>
+            </div>
+
+          </div>
+
+          </div>
+
+          <div class="contact-form">
+            <form>
+
+              <div>
+                <label for="name">Full name</label>
+                <input 
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your full name"
+                >
+              </div>
+
+              <div>
+                <label for="email">Email</label>
+                <input 
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your Email"
+                >
+              </div>
+
+              <div>
+                <label for="subject">Subject</label>
+                <input 
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Enter subject"
+                >
+              </div>
+
+              <div>
+                <label for="message">Message</label>
+                <textarea 
+                name="message" 
+                id="message"
+                rows="4"
+                placeholder="Write a message..."
+                ></textarea>
+              </div>
+
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+
         </div>
-      </article>
-
-      <article onclick="window.location.href='projects.html'">
-        <img src="imges/commercial.jpg" alt="Modern commercial building constructed by Sahal Construction Company">
-
-        <div class="project-content">
-        <h3>Commercial Building</h3>
-
-        <p>
-          A commercial constraction project designed for business and office use.
-        </p>
-        </div>
-      </article>
-
-      <article onclick="window.location.href='projects.html'">
-        <img src="imges/renovate.jpeg" alt="Renovated building completed by Sahal Construction Company">
-
-        <div class="project-content">
-        <h3>Building Renovation</h3>
-
-        <p>
-          A complete renovation project that improved the building's appearance and functionality.
-        </p>
-        </div>
-      </article>
-
       </div>
-
-      <a href="#contact">Learn more</a>
-
-    </section>
-
-    <section id="contact">
-
-      <h2>Contact Us</h2>
-
-      <p>Have project in mind? Contact us today.</p>
-
-      <form novalidate>
-
-        <div>
-          <label for="name">Full name</label>
-          <input 
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Enter your full name"
-          >
-        </div>
-
-        <div>
-          <label for="email">Email Address</label>
-          <input 
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter your email"
-          >
-        </div>
-
-        <div>
-          <label for="message">Message</label>
-          <textarea 
-          name="message" 
-          id="message" 
-          rows="6"
-          placeholder="Tell us about your project..."
-          ></textarea>
-        </div>
-
-        <button type="submit">Send Message</button>
-        <p class="form-message" aria-live="polite"></p>
-
-      </form>
-
+      
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 Sahal Constraction Company. All rights reserved.
+    <div class="container">
 
-    </p>
+      <div class="footer-top">
+        <div class="logo-image">
+          <a href="#home">
+          <img src="imges/company-logo.png" alt="Sahal Construction Company">
+          </a>
+        </div>
+    
+        <div class="footer-brand">
 
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#services">services</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+          <h2>Sahal Construction Company</h2>
+          
+          <p>
+            Professional construction solutions for residential and commercial projects.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contatct Us</h3>
+
+          <div class="footer-contact-info">
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i data-lucide="phone"></i>
+              </div>
+
+              <div class="footer-contact-details">
+                <h4>Phone</h4>
+                <p>+252 61 0000000</p>
+              </div>
+            </div>
+
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i data-lucide="mail"></i>
+              </div>
+
+              <div class="footer-contact-details">
+                <h4>Email</h4>
+                <p>Sahalconstruction.co@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i data-lucide="map-pin"></i>
+              </div>
+
+              <div class="footer-contact-details">
+                <h4>Location</h4>
+                <p>Somalia, Mogadishu</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="social-links">
+          <h4>Follow Us :</h4>
+
+          <a href="https://www.facebook.com/sahalibrahimd" target="_blank">
+            <i class="fa-brands fa-facebook-f face"></i>
+          </a>
+
+          <a href="https://www.instagram.com/_sahal_brahim_" target="_blank">
+            <i class="fa-brands fa-instagram inst"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/sahal-brahim-5850ba315" target="_blank"><i class="fa-brands fa-linkedin-in linked">
+          </i>
+          </a>
+
+        </div>
+
+        <div class="copy-right">
+          &copy; 2026 Sahal Construction Company &middot; All rights reserved.
+        </div>
+
+      </div>
+
+    </div>
   </footer>
 
 
