@@ -684,12 +684,21 @@ form label {
 form > div input,
 form > div textarea {
   width: 100%;
-  padding: 15px;
+  padding: 15px 30px 15px 15px;
   font-size: 15px;
   font-family: inherit;
   border-radius: 10px;
   border: 1px solid rgb(163, 163, 163);
   box-sizing: border-box;
+}
+
+form > div input {
+  height: 50px;
+}
+
+form > div textarea {
+  min-height: 140px;
+  resize: vertical;
 }
 
 input:focus, 
