@@ -634,9 +634,9 @@ body {
   font-size: 18px;
 }
 
-.contact-details p {
+.contact-details a {
   color: var(--text-color);
-
+  text-decoration: none;
   font-size: 17px;
 }
 
@@ -828,10 +828,11 @@ footer {
   align-items: start;
 }
 
-.footer-contact-item p {
+.footer-contact-item a {
   color: rgb(207, 207, 207);
   font-size: 16px;
   margin-bottom: 5px;
+  text-decoration: none;
 }
 
 .footer-contact-icon {
