@@ -597,6 +597,10 @@ body {
   gap: 34px;
 }
 
+.contact-left {
+  width: 100%;
+}
+
 .contact-content h2 {
   color: var(--dark-color);
 
@@ -605,7 +609,6 @@ body {
 
 .contact-content p {
   color: var(--text-color);
-  max-width: 500px;
 
   margin-bottom: 18px;
 }
@@ -684,7 +687,7 @@ form label {
 
 form > div input, div textarea {
   width: 100%;
-  width: 500px;
+  width: 400px;
   padding: 15px;
   font-size: 15px;
 
@@ -923,7 +926,11 @@ footer {
 
   form > div input, div textarea {
     width: 100%;
-    width: 500px;
+    width: 400px;
+  }
+
+  .contact-left {
+    width: 100%;
   }
 
   .footer-top {
@@ -1038,6 +1045,11 @@ footer {
 
   .contact-container {
     grid-template-columns: 1fr;
+  }
+
+  .contact-left,
+  .contact-content {
+    width: 100%;
   }
 
   .footer-top {
