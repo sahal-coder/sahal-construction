@@ -597,10 +597,6 @@ body {
   gap: 34px;
 }
 
-.contact-left {
-  width: 100%;
-}
-
 .contact-content h2 {
   color: var(--dark-color);
 
@@ -685,15 +681,15 @@ form label {
   color: var(--dark-color);
 }
 
-form > div input, div textarea {
+form > div input,
+form > div textarea {
   width: 100%;
-  width: 400px;
   padding: 15px;
   font-size: 15px;
-
   font-family: inherit;
   border-radius: 10px;
   border: 1px solid rgb(163, 163, 163);
+  box-sizing: border-box;
 }
 
 input:focus, 
@@ -920,19 +916,6 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .contact-container {
-    grid-template-columns: 1fr;
-  }
-
-  form > div input, div textarea {
-    width: 100%;
-    width: 400px;
-  }
-
-  .contact-left {
-    width: 100%;
-  }
-
   .footer-top {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -971,6 +954,21 @@ footer {
   .menu-button {
     display: block;
     z-index: 1000;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-left,
+  .contact-form {
+    width: 100%;
+  }
+
+  form > div input,
+  form > div textarea {
+    width: 100%;
+    box-sizing: border-box;
   }
 }
 
@@ -1048,8 +1046,14 @@ footer {
   }
 
   .contact-left,
-  .contact-content {
+  .contact-form {
     width: 100%;
+  }
+
+  form > div input,
+  form > div textarea {
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .footer-top {
